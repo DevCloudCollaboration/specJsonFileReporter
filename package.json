@@ -1,20 +1,22 @@
 {
-  "private":true,
-	"name": "testpack",
-  "version": "0.0.0",
-  "description": "no description",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Oleg Georgiev",
+  "name": "specJsonFileReporter",
+  "description": "Custom mocha reporter - logs spec results to the console and saves JSON results to a file",
+  "version": "0.0.1",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/ogeorgiev/testpack.git"
+    "url": ""
   },
-  "author": "oleg georgiev",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/ogeorgiev/testpack/issues"
+  "main": "./lib/specJsonFileReporter",
+  "keywords": [
+    "upper",
+    "case",
+    "file"
+  ],
+  "bin": {
+    "specJsonFileReporter": "./bin/specJsonFileReporter"
   },
-  "homepage": "https://github.com/ogeorgiev/testpack"
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
