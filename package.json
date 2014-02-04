@@ -1,0 +1,20 @@
+{
+  "private":true,
+	"name": "testpack",
+  "version": "0.0.0",
+  "description": "no description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ogeorgiev/testpack.git"
+  },
+  "author": "oleg georgiev",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ogeorgiev/testpack/issues"
+  },
+  "homepage": "https://github.com/ogeorgiev/testpack"
+}
