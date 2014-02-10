@@ -1,0 +1,1 @@
+Custom mocha reporter that merges mocha's spec and json reporters. Logs test results to the console (using the spec reporter) and in a JSON file (with the JSON reporter + some added logic for writing in a file).
